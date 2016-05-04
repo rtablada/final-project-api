@@ -1,0 +1,42 @@
+{
+  "name": "item",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "menu": {
+      "type": "belongsTo",
+      "model": "menu",
+      "foreignKey": ""
+    },
+    "steps": {
+      "type": "hasMany",
+      "model": "step",
+      "foreignKey": ""
+    },
+    "allergens": {
+      "type": "hasAndBelongsToMany",
+      "model": "allergen",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

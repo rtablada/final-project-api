@@ -36,5 +36,21 @@
   "end-user": {
     "dataSource": "db",
     "public": true
+  },
+  "menu": {
+    "dataSource": "db",
+    "public": true
+  },
+  "allergen": {
+    "dataSource": "db",
+    "public": true
+  },
+  "item": {
+    "dataSource": "db",
+    "public": true
+  },
+  "step": {
+    "dataSource": "db",
+    "public": true
   }
 }
