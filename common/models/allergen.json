@@ -13,11 +13,10 @@
   },
   "validations": [],
   "relations": {
-    "items": {
+    "itemallergens": {
       "type": "hasMany",
-      "model": "item",
-      "foreignKey": "",
-      "through": "itemallergen"
+      "model": "itemallergen",
+      "foreignKey": ""
     }
   },
   "acls": [],
