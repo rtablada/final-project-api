@@ -52,5 +52,9 @@
   "step": {
     "dataSource": "db",
     "public": true
+  },
+  "itemallergen": {
+    "dataSource": "db",
+    "public": true
   }
 }

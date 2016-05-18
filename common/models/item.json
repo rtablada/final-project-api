@@ -32,9 +32,10 @@
       "foreignKey": ""
     },
     "allergens": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "allergen",
-      "foreignKey": ""
+      "foreignKey": "",
+      "through": "itemallergen"
     }
   },
   "acls": [],

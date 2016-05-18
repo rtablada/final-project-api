@@ -14,9 +14,10 @@
   "validations": [],
   "relations": {
     "items": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "item",
-      "foreignKey": ""
+      "foreignKey": "",
+      "through": "itemallergen"
     }
   },
   "acls": [],
